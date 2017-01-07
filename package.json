@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "name": "autoComplete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "babel -w --presets es2015 src/src.js -o compiled.js",
+    "start": "browser-sync start --server --files index.html style.css compiled.js"
+
+  }
+}
